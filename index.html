@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hoja de vida de Carol Poveda — Vendedora profesional y atención al cliente, Bogotá.">
+  <meta name="author" content="Carol Poveda">
+  <meta name="theme-color" content="#0b192c">
+  <title>Hoja de Vida - Carol Poveda</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="cv-wrapper">
+
+    <!-- CONTENIDO PRINCIPAL
+         Va primero en el código para que lectores de pantalla y sistemas de
+         selección (ATS) lean primero el nombre y la experiencia.
+         Visualmente se muestra a la derecha gracias a CSS Grid. -->
+    <main class="main-panel">
+
+      <!-- ENCABEZADO -->
+      <header class="main-header">
+        <h1 class="candidate-name">Carol Poveda</h1>
+        <p class="candidate-title">Vendedora Profesional &amp; Atención al Cliente</p>
+        <p class="summary-text">
+          Vendedora de ropa experimentada en atención al cliente y técnicas de venta. Destaco por mis sólidas aptitudes comerciales, el control de marcas y de las últimas tendencias en vestimenta y accesorios. Deseo incorporarme a una empresa con oportunidad de crecimiento.
+        </p>
+      </header>
+
+      <!-- HISTORIAL LABORAL -->
+      <section class="content-section" aria-labelledby="h-experiencia">
+        <h2 class="section-heading" id="h-experiencia">
+          <i class="fa-solid fa-briefcase" aria-hidden="true"></i> Historial Laboral
+        </h2>
+
+        <div class="timeline">
+          <article class="timeline-card">
+            <div class="card-header">
+              <div>
+                <h3 class="job-role">Vendedora de ropa</h3>
+                <p class="company-name">Kathile — Bogotá, Cundinamarca</p>
+              </div>
+              <p class="period-badge">
+                <time datetime="2025-12">12/2025</time> — <time datetime="2026-01">01/2026</time>
+              </p>
+            </div>
+            <ul class="bullet-list">
+              <li>Atención y orientación al cliente según sus gustos y necesidades.</li>
+              <li>Abordaje al cliente con amabilidad y paciencia, logrando el cierre de venta.</li>
+              <li>Mantenimiento del orden y la limpieza del establecimiento y área de probadores.</li>
+              <li>Catalogación, colocación de precios, perchas, alarmas y reposición de productos.</li>
+              <li>Preparación diaria de la caja y recuento de dinero en efectivo.</li>
+            </ul>
+          </article>
+
+          <article class="timeline-card">
+            <div class="card-header">
+              <div>
+                <h3 class="job-role">Venta de perfumería</h3>
+                <p class="company-name">Diamond — Bogotá, Cundinamarca</p>
+              </div>
+              <p class="period-badge">
+                <time datetime="2024-12">12/2024</time> — <time datetime="2025-01">01/2025</time>
+              </p>
+            </div>
+            <ul class="bullet-list">
+              <li>Atención y servicio personalizado al cliente.</li>
+              <li>Trabajo en equipo para facilitar el cumplimiento de objetivos comerciales.</li>
+              <li>Cumplimiento eficiente de las tareas asignadas.</li>
+              <li>Resolución de problemas y atención oportuna a incidencias.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- FORMACIÓN ACADÉMICA -->
+      <section class="content-section" aria-labelledby="h-formacion">
+        <h2 class="section-heading" id="h-formacion">
+          <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> Formación Académica
+        </h2>
+
+        <div class="timeline">
+          <article class="timeline-card">
+            <div class="card-header">
+              <div>
+                <h3 class="job-role">Bachiller Académico</h3>
+                <p class="company-name">Bicentenario de la Independencia — Bogotá</p>
+              </div>
+              <p class="period-badge highlight-date">
+                Finalización: <time datetime="2026-12">12/2026</time>
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- OPCIONAL: referencias personales o laborales (muy comunes en Colombia).
+           Quita los comentarios y completa los datos para activarla.
+
+      <section class="content-section" aria-labelledby="h-referencias">
+        <h2 class="section-heading" id="h-referencias">
+          <i class="fa-solid fa-user-check" aria-hidden="true"></i> Referencias
+        </h2>
+        <div class="timeline">
+          <article class="timeline-card">
+            <div class="card-header">
+              <div>
+                <h3 class="job-role">Nombre y apellido</h3>
+                <p class="company-name">Cargo / relación — Empresa</p>
+              </div>
+              <p class="period-badge">+57 000 000 0000</p>
+            </div>
+          </article>
+        </div>
+      </section>
+      -->
+
+    </main>
+
+    <!-- PANEL LATERAL (visualmente a la izquierda) -->
+    <aside class="sidebar" aria-label="Datos personales, aptitudes e idiomas">
+
+      <div class="profile-block">
+        <div class="photo-container">
+          <img src="/foto cari.png" alt="Foto de Carol Poveda" class="photo" width="300" height="300">
+        </div>
+      </div>
+
+      <!-- CONTACTO -->
+      <section class="side-section" aria-labelledby="h-contacto">
+        <h2 class="side-title" id="h-contacto">Contacto</h2>
+        <ul class="contact-info">
+          <li>
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+            <span>Bogotá, Cundinamarca</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+            <a href="tel:+573027923666">+57 302 792 3666</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <a href="mailto:povedacarol772@gmail.com">povedacarol772@gmail.com</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-cake-candles" aria-hidden="true"></i>
+            <time datetime="2008-02-05">05/02/2008</time>
+          </li>
+        </ul>
+      </section>
+
+      <!-- APTITUDES -->
+      <section class="side-section" aria-labelledby="h-aptitudes">
+        <h2 class="side-title" id="h-aptitudes">Aptitudes</h2>
+        <ul class="skills-grid">
+          <li class="skill-pill">Actitud paciente</li>
+          <li class="skill-pill">Buena presencia</li>
+          <li class="skill-pill">Compañerismo</li>
+          <li class="skill-pill">Cordialidad</li>
+          <li class="skill-pill">Orientación al cliente</li>
+          <li class="skill-pill">Cierre de ventas</li>
+          <li class="skill-pill">Actitud positiva</li>
+          <li class="skill-pill">Responsabilidad</li>
+          <li class="skill-pill">Organización</li>
+        </ul>
+      </section>
+
+      <!-- IDIOMAS -->
+      <section class="side-section" aria-labelledby="h-idiomas">
+        <h2 class="side-title" id="h-idiomas">Idiomas</h2>
+        <div class="lang-card">
+          <div class="lang-top">
+            <span class="lang-name">Inglés</span>
+            <span class="lang-badge">B2</span>
+          </div>
+          <p class="lang-desc">Intermedio Avanzado</p>
+          <div class="meter" role="img" aria-label="Nivel de inglés: intermedio avanzado, B2">
+            <span class="meter-fill" style="--level: 75%;"></span>
+          </div>
+        </div>
+      </section>
+
+    </aside>
+
+  </div>
+
+</body>
+</html>
