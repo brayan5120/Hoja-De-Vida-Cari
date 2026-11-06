@@ -21,11 +21,11 @@
 
   /* Tipografía (pt = pensado para papel; 10 pt es el mínimo recomendado) */
   --font: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
-  --fs-name: 28pt;
-  --fs-title: 11pt;
-  --fs-h2: 11pt;
-  --fs-body: 10pt;
-  --fs-small: 9pt;
+  --fs-name: 30pt;
+  --fs-title: 11.5pt;
+  --fs-h2: 12pt;
+  --fs-body: 10.5pt;
+  --fs-small: 9.5pt;
 
   /* Medidas */
   --sidebar-w: 70mm;
@@ -97,10 +97,10 @@ a:focus-visible {
   grid-area: side;
   background: linear-gradient(180deg, var(--navy) 0%, #10243f 100%);
   color: var(--on-navy);
-  padding: 12mm 7mm;
+  padding: 16mm 7mm 12mm;
   display: flex;
   flex-direction: column;
-  gap: 8mm;
+  gap: 10mm;
 }
 
 .photo-container {
@@ -215,14 +215,14 @@ a:focus-visible {
    ========================================================================== */
 .main-panel {
   grid-area: main;
-  padding: 12mm 11mm 12mm 10mm;
+  padding: 16mm 12mm 14mm 11mm;
   display: flex;
   flex-direction: column;
-  gap: 7mm;
+  gap: 10mm;
 }
 
 .main-header {
-  padding-bottom: 5mm;
+  padding-bottom: 7mm;
   border-bottom: 1px solid var(--line);
 }
 
@@ -244,7 +244,7 @@ a:focus-visible {
 }
 
 .summary-text {
-  margin-top: 4mm;
+  margin-top: 5mm;
   color: var(--muted);
   max-width: 68ch;
 }
@@ -260,7 +260,7 @@ a:focus-visible {
   letter-spacing: 0.1em;
   color: var(--navy);
   padding-bottom: 6px;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   border-bottom: 2px solid var(--navy);
 }
 
@@ -271,14 +271,14 @@ a:focus-visible {
 /* Tarjetas de experiencia / formación */
 .timeline {
   display: grid;
-  gap: 10px;
+  gap: 14px;
 }
 
 .timeline-card {
   background: var(--surface);
   border-left: 3px solid var(--teal);
   border-radius: 0 var(--radius) var(--radius) 0;
-  padding: 11px 14px;
+  padding: 16px 18px;
   break-inside: avoid;
   page-break-inside: avoid;
 }
@@ -288,7 +288,7 @@ a:focus-visible {
   justify-content: space-between;
   align-items: flex-start;
   gap: 12px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .card-header:last-child {
@@ -296,7 +296,7 @@ a:focus-visible {
 }
 
 .job-role {
-  font-size: 10.5pt;
+  font-size: 11.5pt;
   font-weight: 700;
   line-height: 1.3;
   color: var(--ink);
@@ -326,7 +326,7 @@ a:focus-visible {
 
 .bullet-list {
   display: grid;
-  gap: 3px;
+  gap: 5px;
 }
 
 .bullet-list li {

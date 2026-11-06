@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Hoja de vida de Carol Poveda — Vendedora profesional y atención al cliente, Bogotá.">
+  <meta name="description" content="Hoja de vida de Carol Poveda — Estudiante de Integración de Contenidos Digitales (SENA), Bogotá.">
   <meta name="author" content="Carol Poveda">
   <meta name="theme-color" content="#0b192c">
   <title>Hoja de Vida - Carol Poveda</title>
@@ -20,72 +20,44 @@
 
     <!-- CONTENIDO PRINCIPAL
          Va primero en el código para que lectores de pantalla y sistemas de
-         selección (ATS) lean primero el nombre y la experiencia.
+         selección (ATS) lean primero el nombre y la formación.
          Visualmente se muestra a la derecha gracias a CSS Grid. -->
     <main class="main-panel">
 
       <!-- ENCABEZADO -->
       <header class="main-header">
         <h1 class="candidate-name">Carol Poveda</h1>
-        <p class="candidate-title">Vendedora Profesional &amp; Atención al Cliente</p>
+        <p class="candidate-title">Integración de Contenidos Digitales &middot; SENA</p>
         <p class="summary-text">
-          Vendedora de ropa experimentada en atención al cliente y técnicas de venta. Destaco por mis sólidas aptitudes comerciales, el control de marcas y de las últimas tendencias en vestimenta y accesorios. Deseo incorporarme a una empresa con oportunidad de crecimiento.
+          Estudiante de Integración de Contenidos Digitales en el SENA, con interés en la creación y publicación de contenido para medios digitales. Me caracterizo por la responsabilidad, la buena actitud y el trabajo en equipo. Busco una oportunidad para aplicar lo que aprendo y seguir creciendo profesionalmente.
         </p>
       </header>
 
-      <!-- HISTORIAL LABORAL -->
-      <section class="content-section" aria-labelledby="h-experiencia">
-        <h2 class="section-heading" id="h-experiencia">
-          <i class="fa-solid fa-briefcase" aria-hidden="true"></i> Historial Laboral
-        </h2>
-
-        <div class="timeline">
-          <article class="timeline-card">
-            <div class="card-header">
-              <div>
-                <h3 class="job-role">Vendedora de ropa</h3>
-                <p class="company-name">Kathile — Bogotá, Cundinamarca</p>
-              </div>
-              <p class="period-badge">
-                <time datetime="2025-12">12/2025</time> — <time datetime="2026-01">01/2026</time>
-              </p>
-            </div>
-            <ul class="bullet-list">
-              <li>Atención y orientación al cliente según sus gustos y necesidades.</li>
-              <li>Abordaje al cliente con amabilidad y paciencia, logrando el cierre de venta.</li>
-              <li>Mantenimiento del orden y la limpieza del establecimiento y área de probadores.</li>
-              <li>Catalogación, colocación de precios, perchas, alarmas y reposición de productos.</li>
-              <li>Preparación diaria de la caja y recuento de dinero en efectivo.</li>
-            </ul>
-          </article>
-
-          <article class="timeline-card">
-            <div class="card-header">
-              <div>
-                <h3 class="job-role">Venta de perfumería</h3>
-                <p class="company-name">Diamond — Bogotá, Cundinamarca</p>
-              </div>
-              <p class="period-badge">
-                <time datetime="2024-12">12/2024</time> — <time datetime="2025-01">01/2025</time>
-              </p>
-            </div>
-            <ul class="bullet-list">
-              <li>Atención y servicio personalizado al cliente.</li>
-              <li>Trabajo en equipo para facilitar el cumplimiento de objetivos comerciales.</li>
-              <li>Cumplimiento eficiente de las tareas asignadas.</li>
-              <li>Resolución de problemas y atención oportuna a incidencias.</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <!-- FORMACIÓN ACADÉMICA -->
+      <!-- FORMACIÓN -->
       <section class="content-section" aria-labelledby="h-formacion">
         <h2 class="section-heading" id="h-formacion">
           <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> Formación Académica
         </h2>
 
         <div class="timeline">
+
+          <!-- SENA -->
+          <article class="timeline-card">
+            <div class="card-header">
+              <div>
+                <h3 class="job-role">Integración de Contenidos Digitales</h3>
+                <p class="company-name">SENA — Servicio Nacional de Aprendizaje</p>
+              </div>
+              <p class="period-badge highlight-date">En curso</p>
+            </div>
+            <ul class="bullet-list">
+              <li>Formación en creación, edición e integración de contenidos digitales.</li>
+              <li>Uso de herramientas digitales para el diseño y la publicación de contenido.</li>
+              <li>Trabajo en equipo en proyectos y actividades formativas.</li>
+            </ul>
+          </article>
+
+          <!-- BACHILLER -->
           <article class="timeline-card">
             <div class="card-header">
               <div>
@@ -97,10 +69,11 @@
               </p>
             </div>
           </article>
+
         </div>
       </section>
 
-      <!-- OPCIONAL: referencias personales o laborales (muy comunes en Colombia).
+      <!-- OPCIONAL: referencias personales (muy comunes en Colombia).
            Quita los comentarios y completa los datos para activarla.
 
       <section class="content-section" aria-labelledby="h-referencias">
@@ -128,6 +101,7 @@
 
       <div class="profile-block">
         <div class="photo-container">
+          <!-- Ruta relativa (sin "/" al inicio) y con el espacio codificado como %20 -->
           <img src="foto/foto_cari.png" alt="Foto de Carol Poveda" class="photo" width="300" height="300">
         </div>
       </div>
@@ -159,15 +133,14 @@
       <section class="side-section" aria-labelledby="h-aptitudes">
         <h2 class="side-title" id="h-aptitudes">Aptitudes</h2>
         <ul class="skills-grid">
-          <li class="skill-pill">Actitud paciente</li>
-          <li class="skill-pill">Buena presencia</li>
-          <li class="skill-pill">Compañerismo</li>
-          <li class="skill-pill">Cordialidad</li>
-          <li class="skill-pill">Orientación al cliente</li>
-          <li class="skill-pill">Cierre de ventas</li>
-          <li class="skill-pill">Actitud positiva</li>
+          <li class="skill-pill">Contenidos digitales</li>
+          <li class="skill-pill">Creatividad</li>
+          <li class="skill-pill">Trabajo en equipo</li>
           <li class="skill-pill">Responsabilidad</li>
+          <li class="skill-pill">Actitud positiva</li>
           <li class="skill-pill">Organización</li>
+          <li class="skill-pill">Cordialidad</li>
+          <li class="skill-pill">Aprendizaje continuo</li>
         </ul>
       </section>
 
